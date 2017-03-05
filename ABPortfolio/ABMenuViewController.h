@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ABMenuViewController.h
 //  ABPortfolio
 //
 //  Created by Andrew Boryk on 3/5/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ABMenuViewController : UITableViewController
 
 @end
-

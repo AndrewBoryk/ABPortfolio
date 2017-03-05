@@ -12,6 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+/// Determines whether device rotation is restricted
+@property (nonatomic) BOOL restrictRotation;
 
 @end
 

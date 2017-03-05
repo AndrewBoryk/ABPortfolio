@@ -1,0 +1,1194 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054D24770C69B978A3236EC557C73D49 /* ABMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9969D2B7E9B45F575C495B9E3C871E61 /* ABMediaView.m */; };
+		05A2660AD195483DAEC583C86A81DAD2 /* Pods-ABPortfolioUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A275382BC11B0FD5C77B1B8027DE2C /* Pods-ABPortfolioUITests-dummy.m */; };
+		261E55E2BD1576FA46F0EEC0AAE1D16E /* ABCommons.h in Headers */ = {isa = PBXBuildFile; fileRef = F9713A417E8375C8D5162C092FCABF7F /* ABCommons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F47150603AD6014E46E0B04A9D21560 /* ABMediaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 993A0F552D6691C1A073FC5024759073 /* ABMediaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FC6F7503A64FC6430BECDD8E209507B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		31EC9B7FE54A287417986506FFB8380E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		31F11C997376E71F1AA730516BA55B6D /* Pods-ABPortfolio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B57ED97C8513ABF9CCBA81C8145A5AD0 /* Pods-ABPortfolio-dummy.m */; };
+		34F980DA7E1FAD905578442FB2359AED /* ABUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8DECE4465D4C657F39F31DAE1DC7F0 /* ABUtils.m */; };
+		37F36D3A37DC0C6C17B3458783F0FC11 /* ABKeyboardAccessory.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A75457152484F2F79072D3C0C6223A /* ABKeyboardAccessory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A5FFDC470CAEF8422C8CD406C901316 /* Pods-ABPortfolioTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 858ACA6ED2BDE0559653C9C77C5564AD /* Pods-ABPortfolioTests-dummy.m */; };
+		406AD42B9B5BC8F0228097782E37CFEA /* ABVolumeControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5818A4A8EBC5E8CB45291FB6B5F62 /* ABVolumeControl-dummy.m */; };
+		4B111BD8BBDB19DA32F6BB96541DA3E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4CBE10C2865437212F89C7D7609DEA43 /* ABUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAFDC05EB5152635C8931EA9FF7F160 /* ABUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FEA45D363A095E2037E66A631B7ED8A /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E10A37D11DC071C8D17CA0E3B60F96 /* UIImage+animatedGIF.m */; };
+		57E42A87CF1D74E3D38EB0B290A15A9D /* ABVolumeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFF64393704C30FABD49598C7C82105 /* ABVolumeControl.m */; };
+		625ADB6DD413E8C09BE2D340D5E0459F /* ABLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0DF81762DB9C970BBC6AAFE6F119C0 /* ABLabel.m */; };
+		6852A9E73124256D1078FBF49209E2CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6A500998D09DC74EE68C3D90281BA83A /* ABVolumeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C291EC21C26DFEB13167E48187BE22BC /* ABVolumeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B80961CBF22C6B5A1704037D00136B7 /* ABMediaView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01288C0AB13D2DBAE97D5E60FD761041 /* ABMediaView-dummy.m */; };
+		6EA59F8F96E27368E50B542AAC7C156D /* ABLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 23524DAB777288F58CB0384BA9EB488D /* ABLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81A1ABD099721FF9C32800B21B0C9F7E /* ABUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9FF424D4919A422A21DE3EC56EAA9E /* ABUtils-dummy.m */; };
+		856F890207448265C0344C01177D272D /* ABVolumeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 613BC90F130E61E18EEEBCA31D668A73 /* ABVolumeControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B7A1DF81C6739B8FF9E10A34DFCC4C /* ABCommons.m in Sources */ = {isa = PBXBuildFile; fileRef = 693186B53B7EC4420EB4A963AE7CEB82 /* ABCommons.m */; };
+		8B872839E078EAEEFDCD66B601C60AD0 /* ABPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 51DE9B5EFD8F657445E38FF9EA298C27 /* ABPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F8375D4FDFE4A64A72D40272B2397A /* ABVolumeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D71299F6D52EF753E9C1A6F3118669C /* ABVolumeManager.m */; };
+		958CB438E43B17502DBBECA258DE5237 /* UIImage+animatedGIF.h in Headers */ = {isa = PBXBuildFile; fileRef = AFDD79F4E16B532ADE9453F6D21F9F32 /* UIImage+animatedGIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA470AD7ECFB78338B8C2D2A4C237F4E /* ABKeyboardAccessory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B03904869A4BB88ABB59594BF75B73F /* ABKeyboardAccessory-dummy.m */; };
+		AB0061DF7C4559915ECEFC4AC06B7BE8 /* ABTrackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 042B2CABFFC8D6176475C2083F1B6831 /* ABTrackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1713C579D02433B5563C92EE16E9EAD /* ABCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9207FD7B437DC7F547F1E63F5A342A /* ABCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B82D28C552FA3848D0F220644C5A0FF8 /* ABPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB1AF9C46E9D9FEA112D26D88B4D6A0 /* ABPlayer.m */; };
+		C2DB8C0A7EB4C30B8F9048AA594339A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C5BB9E5D9A243960B0426458B9014A28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D25870AD311ADC983C787570775FCFA8 /* ABCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE30772D8E52F98492815A942AE3C882 /* ABCacheManager.m */; };
+		E31DC453C9A89590102516055D2D7501 /* ABTrackView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D7858A420EAE209DE95DBA1850B75 /* ABTrackView.m */; };
+		EA8C41BDC122688D499F4CFCA27FB693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F48DF018D0FDB281F0DDEC9FB6D765BB /* ABKeyboardAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B9FC15A6419D152DCC9013D94E8159 /* ABKeyboardAccessory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C1B4803155C26E08CF1F44F265E7CA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6E9C7AF14880382E857AFA87534D42;
+			remoteInfo = ABKeyboardAccessory;
+		};
+		8CD304BC09F6FBE79BB05D6A4B352064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2760FEE564874ED9653F59FE6C4FDDFD;
+			remoteInfo = ABUtils;
+		};
+		D55A0477C50E3708C00A9173F534FE31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8F4D193A5C4FB9F9039F94751FC71A;
+			remoteInfo = ABVolumeControl;
+		};
+		F7ADEB7B7208F3FC1A1E09CB51BD00DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 393E2C5FE01592E75DC481C869C58956;
+			remoteInfo = ABMediaView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0029C219ED834B88703D9C4361BC7ED1 /* ABMediaView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABMediaView.xcconfig; sourceTree = "<group>"; };
+		01288C0AB13D2DBAE97D5E60FD761041 /* ABMediaView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABMediaView-dummy.m"; sourceTree = "<group>"; };
+		042B2CABFFC8D6176475C2083F1B6831 /* ABTrackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABTrackView.h; path = ABMediaView/Classes/ABTrackView.h; sourceTree = "<group>"; };
+		07A275382BC11B0FD5C77B1B8027DE2C /* Pods-ABPortfolioUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABPortfolioUITests-dummy.m"; sourceTree = "<group>"; };
+		1892E442A74BED4409868209CD921C70 /* ABMediaView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABMediaView-prefix.pch"; sourceTree = "<group>"; };
+		1AE5818A4A8EBC5E8CB45291FB6B5F62 /* ABVolumeControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABVolumeControl-dummy.m"; sourceTree = "<group>"; };
+		1B03904869A4BB88ABB59594BF75B73F /* ABKeyboardAccessory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABKeyboardAccessory-dummy.m"; sourceTree = "<group>"; };
+		205671086BFC8F584CFD2DFB00E99F10 /* Pods-ABPortfolioUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABPortfolioUITests-resources.sh"; sourceTree = "<group>"; };
+		22DB8B24E6A08393DC283058547C0211 /* libABKeyboardAccessory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libABKeyboardAccessory.a; path = libABKeyboardAccessory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		23524DAB777288F58CB0384BA9EB488D /* ABLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABLabel.h; path = ABMediaView/Classes/ABLabel.h; sourceTree = "<group>"; };
+		2AA5AD3E8DC948F6019BA7719580FC46 /* Pods-ABPortfolioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABPortfolioTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B9FF424D4919A422A21DE3EC56EAA9E /* ABUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABUtils-dummy.m"; sourceTree = "<group>"; };
+		2C59E1C6A0875B492EF156B831B97B8B /* Pods-ABPortfolio-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABPortfolio-resources.sh"; sourceTree = "<group>"; };
+		2D71299F6D52EF753E9C1A6F3118669C /* ABVolumeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABVolumeManager.m; path = ABMediaView/Classes/ABVolumeManager.m; sourceTree = "<group>"; };
+		33D411EB6968C9D60E2D3949589177AA /* ABKeyboardAccessory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABKeyboardAccessory-prefix.pch"; sourceTree = "<group>"; };
+		35CE6E73D31EE3C8A7D6E08E2820312A /* Pods-ABPortfolio-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABPortfolio-acknowledgements.plist"; sourceTree = "<group>"; };
+		395EC692BF8B8F653A3B05199FC341FA /* ABVolumeControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABVolumeControl-prefix.pch"; sourceTree = "<group>"; };
+		4A1104CC205E0A0E8CF853E1EF44A0AF /* ABVolumeControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABVolumeControl.xcconfig; sourceTree = "<group>"; };
+		51DE9B5EFD8F657445E38FF9EA298C27 /* ABPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABPlayer.h; path = ABMediaView/Classes/ABPlayer.h; sourceTree = "<group>"; };
+		60B40619E94DBD6F79AAF0DBA819CC46 /* libABUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libABUtils.a; path = libABUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		613BC90F130E61E18EEEBCA31D668A73 /* ABVolumeControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABVolumeControl.h; path = ABVolumeControl/Classes/ABVolumeControl.h; sourceTree = "<group>"; };
+		693186B53B7EC4420EB4A963AE7CEB82 /* ABCommons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCommons.m; path = ABMediaView/Classes/ABCommons.m; sourceTree = "<group>"; };
+		7727C3AF8EA6D494D6166588F932DFEE /* Pods-ABPortfolioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABPortfolioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		858ACA6ED2BDE0559653C9C77C5564AD /* Pods-ABPortfolioTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABPortfolioTests-dummy.m"; sourceTree = "<group>"; };
+		87DC887A30B76FF82CB2DC70F95A0019 /* Pods-ABPortfolioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABPortfolioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8FB1AF9C46E9D9FEA112D26D88B4D6A0 /* ABPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABPlayer.m; path = ABMediaView/Classes/ABPlayer.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F06249C86FF3507DBF828D597CB91F /* Pods-ABPortfolioUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABPortfolioUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		993A0F552D6691C1A073FC5024759073 /* ABMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABMediaView.h; path = ABMediaView/Classes/ABMediaView.h; sourceTree = "<group>"; };
+		9954D0A53AA9A7ADCB7F23C612DE8A8D /* Pods-ABPortfolioTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABPortfolioTests-resources.sh"; sourceTree = "<group>"; };
+		9969D2B7E9B45F575C495B9E3C871E61 /* ABMediaView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABMediaView.m; path = ABMediaView/Classes/ABMediaView.m; sourceTree = "<group>"; };
+		9A552D99A76BF05CD935BF7958196F04 /* libABVolumeControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libABVolumeControl.a; path = libABVolumeControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B17AB3D0EC017966EC35E82A76350D7 /* Pods-ABPortfolioTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABPortfolioTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C03F48F84E7D865251E598324F3ED92 /* Pods-ABPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABPortfolio.release.xcconfig"; sourceTree = "<group>"; };
+		A6E95D46F79D60D4A89F62D2EA1CC0D4 /* libABMediaView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libABMediaView.a; path = libABMediaView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9207FD7B437DC7F547F1E63F5A342A /* ABCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCacheManager.h; path = ABMediaView/Classes/ABCacheManager.h; sourceTree = "<group>"; };
+		AB0DF81762DB9C970BBC6AAFE6F119C0 /* ABLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABLabel.m; path = ABMediaView/Classes/ABLabel.m; sourceTree = "<group>"; };
+		AF1D7858A420EAE209DE95DBA1850B75 /* ABTrackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABTrackView.m; path = ABMediaView/Classes/ABTrackView.m; sourceTree = "<group>"; };
+		AF45A903F8631EDE65BFAA2BEA9BD11E /* Pods-ABPortfolio-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABPortfolio-frameworks.sh"; sourceTree = "<group>"; };
+		AFDD79F4E16B532ADE9453F6D21F9F32 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "ABMediaView/Classes/UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		B3B3DD40B634278A25835497939ED6F2 /* Pods-ABPortfolioTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABPortfolioTests-frameworks.sh"; sourceTree = "<group>"; };
+		B3DE15522603B910043396A04C264D46 /* Pods-ABPortfolioTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABPortfolioTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B57ED97C8513ABF9CCBA81C8145A5AD0 /* Pods-ABPortfolio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABPortfolio-dummy.m"; sourceTree = "<group>"; };
+		C291EC21C26DFEB13167E48187BE22BC /* ABVolumeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABVolumeManager.h; path = ABMediaView/Classes/ABVolumeManager.h; sourceTree = "<group>"; };
+		C5B9FC15A6419D152DCC9013D94E8159 /* ABKeyboardAccessory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABKeyboardAccessory.m; path = ABKeyboardAccessory/Classes/ABKeyboardAccessory.m; sourceTree = "<group>"; };
+		C7ED58C894DE013B58A5E0E0DC384763 /* Pods-ABPortfolioUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABPortfolioUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE14052B9F5491501EDC2480C5BFD3DE /* ABUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABUtils-prefix.pch"; sourceTree = "<group>"; };
+		CE30772D8E52F98492815A942AE3C882 /* ABCacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABCacheManager.m; path = ABMediaView/Classes/ABCacheManager.m; sourceTree = "<group>"; };
+		CE4D531DFE043F9A24743BA21A37B6FC /* ABKeyboardAccessory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABKeyboardAccessory.xcconfig; sourceTree = "<group>"; };
+		CEFF64393704C30FABD49598C7C82105 /* ABVolumeControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABVolumeControl.m; path = ABVolumeControl/Classes/ABVolumeControl.m; sourceTree = "<group>"; };
+		D1DB0341DB51A6CF0E5500BC37AE679B /* libPods-ABPortfolio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ABPortfolio.a"; path = "libPods-ABPortfolio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A0ACB6E03CE7E682E923761579D27C /* libPods-ABPortfolioTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ABPortfolioTests.a"; path = "libPods-ABPortfolioTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8DECE4465D4C657F39F31DAE1DC7F0 /* ABUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABUtils.m; path = ABUtils/Classes/ABUtils.m; sourceTree = "<group>"; };
+		E6A75457152484F2F79072D3C0C6223A /* ABKeyboardAccessory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABKeyboardAccessory.h; path = ABKeyboardAccessory/Classes/ABKeyboardAccessory.h; sourceTree = "<group>"; };
+		E7194880C9BBFE9D3EA5843AF8552726 /* libPods-ABPortfolioUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ABPortfolioUITests.a"; path = "libPods-ABPortfolioUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8662239861CD4301F71AAF578A170F9 /* Pods-ABPortfolioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABPortfolioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8E10A37D11DC071C8D17CA0E3B60F96 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+animatedGIF.m"; path = "ABMediaView/Classes/UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		EB7E733DF3D7CF726147EB082F35663F /* Pods-ABPortfolioUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABPortfolioUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EE776BD48B60A5556EC6AD82F2A3B7A4 /* Pods-ABPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
+		EEBF24A08228082419EDE0C7593D98E8 /* ABUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABUtils.xcconfig; sourceTree = "<group>"; };
+		F9713A417E8375C8D5162C092FCABF7F /* ABCommons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCommons.h; path = ABMediaView/Classes/ABCommons.h; sourceTree = "<group>"; };
+		FA4FA4C924C880122BE911118158EA9D /* Pods-ABPortfolio-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABPortfolio-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBAFDC05EB5152635C8931EA9FF7F160 /* ABUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABUtils.h; path = ABUtils/Classes/ABUtils.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2724FD07DD8C50A65D2AD3D23E9389F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8C41BDC122688D499F4CFCA27FB693 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E5B63E23DC336CA294E3B1E82D5CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DB8C0A7EB4C30B8F9048AA594339A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF66B14539E70E78C10638EFC77DCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31EC9B7FE54A287417986506FFB8380E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EAF6A7EC351AEEDE0AC845583964D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6852A9E73124256D1078FBF49209E2CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE258464933187571E3E196CEACA0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BB9E5D9A243960B0426458B9014A28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0C999AC99C48959BB8B25B36D48BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B111BD8BBDB19DA32F6BB96541DA3E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB61E8DA8E387C21FC2D532AFCFE446C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC6F7503A64FC6430BECDD8E209507B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08AC647A0F87DDFF13CE8CDFE8815150 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF24A08228082419EDE0C7593D98E8 /* ABUtils.xcconfig */,
+				2B9FF424D4919A422A21DE3EC56EAA9E /* ABUtils-dummy.m */,
+				CE14052B9F5491501EDC2480C5BFD3DE /* ABUtils-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ABUtils";
+			sourceTree = "<group>";
+		};
+		307C19758B9ADF0A68E4E5C81D9BF3A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22DB8B24E6A08393DC283058547C0211 /* libABKeyboardAccessory.a */,
+				A6E95D46F79D60D4A89F62D2EA1CC0D4 /* libABMediaView.a */,
+				60B40619E94DBD6F79AAF0DBA819CC46 /* libABUtils.a */,
+				9A552D99A76BF05CD935BF7958196F04 /* libABVolumeControl.a */,
+				D1DB0341DB51A6CF0E5500BC37AE679B /* libPods-ABPortfolio.a */,
+				D3A0ACB6E03CE7E682E923761579D27C /* libPods-ABPortfolioTests.a */,
+				E7194880C9BBFE9D3EA5843AF8552726 /* libPods-ABPortfolioUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A55F7FD5DDDF61B833C83DD7B43D4E0 /* Pods-ABPortfolio */ = {
+			isa = PBXGroup;
+			children = (
+				FA4FA4C924C880122BE911118158EA9D /* Pods-ABPortfolio-acknowledgements.markdown */,
+				35CE6E73D31EE3C8A7D6E08E2820312A /* Pods-ABPortfolio-acknowledgements.plist */,
+				B57ED97C8513ABF9CCBA81C8145A5AD0 /* Pods-ABPortfolio-dummy.m */,
+				AF45A903F8631EDE65BFAA2BEA9BD11E /* Pods-ABPortfolio-frameworks.sh */,
+				2C59E1C6A0875B492EF156B831B97B8B /* Pods-ABPortfolio-resources.sh */,
+				EE776BD48B60A5556EC6AD82F2A3B7A4 /* Pods-ABPortfolio.debug.xcconfig */,
+				9C03F48F84E7D865251E598324F3ED92 /* Pods-ABPortfolio.release.xcconfig */,
+			);
+			name = "Pods-ABPortfolio";
+			path = "Target Support Files/Pods-ABPortfolio";
+			sourceTree = "<group>";
+		};
+		71E902FD951F728E23D5824C413F381F /* ABMediaView */ = {
+			isa = PBXGroup;
+			children = (
+				AA9207FD7B437DC7F547F1E63F5A342A /* ABCacheManager.h */,
+				CE30772D8E52F98492815A942AE3C882 /* ABCacheManager.m */,
+				F9713A417E8375C8D5162C092FCABF7F /* ABCommons.h */,
+				693186B53B7EC4420EB4A963AE7CEB82 /* ABCommons.m */,
+				23524DAB777288F58CB0384BA9EB488D /* ABLabel.h */,
+				AB0DF81762DB9C970BBC6AAFE6F119C0 /* ABLabel.m */,
+				993A0F552D6691C1A073FC5024759073 /* ABMediaView.h */,
+				9969D2B7E9B45F575C495B9E3C871E61 /* ABMediaView.m */,
+				51DE9B5EFD8F657445E38FF9EA298C27 /* ABPlayer.h */,
+				8FB1AF9C46E9D9FEA112D26D88B4D6A0 /* ABPlayer.m */,
+				042B2CABFFC8D6176475C2083F1B6831 /* ABTrackView.h */,
+				AF1D7858A420EAE209DE95DBA1850B75 /* ABTrackView.m */,
+				C291EC21C26DFEB13167E48187BE22BC /* ABVolumeManager.h */,
+				2D71299F6D52EF753E9C1A6F3118669C /* ABVolumeManager.m */,
+				AFDD79F4E16B532ADE9453F6D21F9F32 /* UIImage+animatedGIF.h */,
+				E8E10A37D11DC071C8D17CA0E3B60F96 /* UIImage+animatedGIF.m */,
+				D618B5C22AB40E4CCDAF9465DE40069C /* Support Files */,
+			);
+			name = ABMediaView;
+			path = ABMediaView;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				94E94465D1860069E7B5AA7AE078AA8F /* Pods */,
+				307C19758B9ADF0A68E4E5C81D9BF3A1 /* Products */,
+				DDC29BB62FF513C14FD28904BDC529C1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83281D626BC2F34BA59A5BA16EE7BFE8 /* Pods-ABPortfolioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95F06249C86FF3507DBF828D597CB91F /* Pods-ABPortfolioUITests-acknowledgements.markdown */,
+				C7ED58C894DE013B58A5E0E0DC384763 /* Pods-ABPortfolioUITests-acknowledgements.plist */,
+				07A275382BC11B0FD5C77B1B8027DE2C /* Pods-ABPortfolioUITests-dummy.m */,
+				EB7E733DF3D7CF726147EB082F35663F /* Pods-ABPortfolioUITests-frameworks.sh */,
+				205671086BFC8F584CFD2DFB00E99F10 /* Pods-ABPortfolioUITests-resources.sh */,
+				7727C3AF8EA6D494D6166588F932DFEE /* Pods-ABPortfolioUITests.debug.xcconfig */,
+				87DC887A30B76FF82CB2DC70F95A0019 /* Pods-ABPortfolioUITests.release.xcconfig */,
+			);
+			name = "Pods-ABPortfolioUITests";
+			path = "Target Support Files/Pods-ABPortfolioUITests";
+			sourceTree = "<group>";
+		};
+		896ECE750C451AEA720CACC4289F43B6 /* ABVolumeControl */ = {
+			isa = PBXGroup;
+			children = (
+				613BC90F130E61E18EEEBCA31D668A73 /* ABVolumeControl.h */,
+				CEFF64393704C30FABD49598C7C82105 /* ABVolumeControl.m */,
+				F6BC1314B4A9713E71A71126326FE8E9 /* Support Files */,
+			);
+			name = ABVolumeControl;
+			path = ABVolumeControl;
+			sourceTree = "<group>";
+		};
+		94E94465D1860069E7B5AA7AE078AA8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF65D85899C1B7DE1F394DC9840A04AD /* ABKeyboardAccessory */,
+				71E902FD951F728E23D5824C413F381F /* ABMediaView */,
+				CF03FA4F225078C70116A5DCA1ED6790 /* ABUtils */,
+				896ECE750C451AEA720CACC4289F43B6 /* ABVolumeControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		966FB0BA0665E1ADCD864274A4D728D3 /* Pods-ABPortfolioTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3DE15522603B910043396A04C264D46 /* Pods-ABPortfolioTests-acknowledgements.markdown */,
+				9B17AB3D0EC017966EC35E82A76350D7 /* Pods-ABPortfolioTests-acknowledgements.plist */,
+				858ACA6ED2BDE0559653C9C77C5564AD /* Pods-ABPortfolioTests-dummy.m */,
+				B3B3DD40B634278A25835497939ED6F2 /* Pods-ABPortfolioTests-frameworks.sh */,
+				9954D0A53AA9A7ADCB7F23C612DE8A8D /* Pods-ABPortfolioTests-resources.sh */,
+				E8662239861CD4301F71AAF578A170F9 /* Pods-ABPortfolioTests.debug.xcconfig */,
+				2AA5AD3E8DC948F6019BA7719580FC46 /* Pods-ABPortfolioTests.release.xcconfig */,
+			);
+			name = "Pods-ABPortfolioTests";
+			path = "Target Support Files/Pods-ABPortfolioTests";
+			sourceTree = "<group>";
+		};
+		AACEC143CBD5332577345B00C369F8AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4D531DFE043F9A24743BA21A37B6FC /* ABKeyboardAccessory.xcconfig */,
+				1B03904869A4BB88ABB59594BF75B73F /* ABKeyboardAccessory-dummy.m */,
+				33D411EB6968C9D60E2D3949589177AA /* ABKeyboardAccessory-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ABKeyboardAccessory";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF03FA4F225078C70116A5DCA1ED6790 /* ABUtils */ = {
+			isa = PBXGroup;
+			children = (
+				FBAFDC05EB5152635C8931EA9FF7F160 /* ABUtils.h */,
+				DB8DECE4465D4C657F39F31DAE1DC7F0 /* ABUtils.m */,
+				08AC647A0F87DDFF13CE8CDFE8815150 /* Support Files */,
+			);
+			name = ABUtils;
+			path = ABUtils;
+			sourceTree = "<group>";
+		};
+		D618B5C22AB40E4CCDAF9465DE40069C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0029C219ED834B88703D9C4361BC7ED1 /* ABMediaView.xcconfig */,
+				01288C0AB13D2DBAE97D5E60FD761041 /* ABMediaView-dummy.m */,
+				1892E442A74BED4409868209CD921C70 /* ABMediaView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ABMediaView";
+			sourceTree = "<group>";
+		};
+		DDC29BB62FF513C14FD28904BDC529C1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A55F7FD5DDDF61B833C83DD7B43D4E0 /* Pods-ABPortfolio */,
+				966FB0BA0665E1ADCD864274A4D728D3 /* Pods-ABPortfolioTests */,
+				83281D626BC2F34BA59A5BA16EE7BFE8 /* Pods-ABPortfolioUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EF65D85899C1B7DE1F394DC9840A04AD /* ABKeyboardAccessory */ = {
+			isa = PBXGroup;
+			children = (
+				E6A75457152484F2F79072D3C0C6223A /* ABKeyboardAccessory.h */,
+				C5B9FC15A6419D152DCC9013D94E8159 /* ABKeyboardAccessory.m */,
+				AACEC143CBD5332577345B00C369F8AB /* Support Files */,
+			);
+			name = ABKeyboardAccessory;
+			path = ABKeyboardAccessory;
+			sourceTree = "<group>";
+		};
+		F6BC1314B4A9713E71A71126326FE8E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A1104CC205E0A0E8CF853E1EF44A0AF /* ABVolumeControl.xcconfig */,
+				1AE5818A4A8EBC5E8CB45291FB6B5F62 /* ABVolumeControl-dummy.m */,
+				395EC692BF8B8F653A3B05199FC341FA /* ABVolumeControl-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ABVolumeControl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		273F1FDC48004499DE4187418B62F7FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBE10C2865437212F89C7D7609DEA43 /* ABUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D9AAA9EF466638CB33491F55C23AEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F36D3A37DC0C6C17B3458783F0FC11 /* ABKeyboardAccessory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FE7D124B896A7764F702E6B1EB6A23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1713C579D02433B5563C92EE16E9EAD /* ABCacheManager.h in Headers */,
+				261E55E2BD1576FA46F0EEC0AAE1D16E /* ABCommons.h in Headers */,
+				6EA59F8F96E27368E50B542AAC7C156D /* ABLabel.h in Headers */,
+				2F47150603AD6014E46E0B04A9D21560 /* ABMediaView.h in Headers */,
+				8B872839E078EAEEFDCD66B601C60AD0 /* ABPlayer.h in Headers */,
+				AB0061DF7C4559915ECEFC4AC06B7BE8 /* ABTrackView.h in Headers */,
+				6A500998D09DC74EE68C3D90281BA83A /* ABVolumeManager.h in Headers */,
+				958CB438E43B17502DBBECA258DE5237 /* UIImage+animatedGIF.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAE9985DAC68E3E04E229AC9F9563FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856F890207448265C0344C01177D272D /* ABVolumeControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D6E9C7AF14880382E857AFA87534D42 /* ABKeyboardAccessory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B737EE6B58153C8FCC4278AB622050EA /* Build configuration list for PBXNativeTarget "ABKeyboardAccessory" */;
+			buildPhases = (
+				EBCCFC44A8DD8F45581454E54AE3DDD0 /* Sources */,
+				ABE258464933187571E3E196CEACA0DE /* Frameworks */,
+				47D9AAA9EF466638CB33491F55C23AEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABKeyboardAccessory;
+			productName = ABKeyboardAccessory;
+			productReference = 22DB8B24E6A08393DC283058547C0211 /* libABKeyboardAccessory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2760FEE564874ED9653F59FE6C4FDDFD /* ABUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F9BF9728DEF40398BFF8649628A7C0 /* Build configuration list for PBXNativeTarget "ABUtils" */;
+			buildPhases = (
+				009584578BA342D64372AE28E306FE59 /* Sources */,
+				80E5B63E23DC336CA294E3B1E82D5CEB /* Frameworks */,
+				273F1FDC48004499DE4187418B62F7FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABUtils;
+			productName = ABUtils;
+			productReference = 60B40619E94DBD6F79AAF0DBA819CC46 /* libABUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		393E2C5FE01592E75DC481C869C58956 /* ABMediaView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E6B7D26E97775F865EE2FF892EBE09 /* Build configuration list for PBXNativeTarget "ABMediaView" */;
+			buildPhases = (
+				6359AA12BA36C35DF7E6B56D4A6743A0 /* Sources */,
+				9AF66B14539E70E78C10638EFC77DCAD /* Frameworks */,
+				94FE7D124B896A7764F702E6B1EB6A23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABMediaView;
+			productName = ABMediaView;
+			productReference = A6E95D46F79D60D4A89F62D2EA1CC0D4 /* libABMediaView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		51FB1DA4626B00E00A271EBA4400F772 /* Pods-ABPortfolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9279B9B338BD8255126C737BDA3B19BA /* Build configuration list for PBXNativeTarget "Pods-ABPortfolio" */;
+			buildPhases = (
+				514D0B63EDA569F0FF1943688796ADF5 /* Sources */,
+				FB61E8DA8E387C21FC2D532AFCFE446C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0042C7878D9BA867620B3668132CA60 /* PBXTargetDependency */,
+				2AD634B1473E27C9A3596CFC055A69A0 /* PBXTargetDependency */,
+				2D2D32800192FA994B5772D98D0A239A /* PBXTargetDependency */,
+				323FE6F2A9CFC3E74ED6CD2F28FBE0AF /* PBXTargetDependency */,
+			);
+			name = "Pods-ABPortfolio";
+			productName = "Pods-ABPortfolio";
+			productReference = D1DB0341DB51A6CF0E5500BC37AE679B /* libPods-ABPortfolio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7AE1F6F71356621E2EC6DB5EBC0ACD70 /* Pods-ABPortfolioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3502A90212CACE1D17F841FEE0189AF /* Build configuration list for PBXNativeTarget "Pods-ABPortfolioTests" */;
+			buildPhases = (
+				8ACC835A11A2CC0A9602BC6B8DC735BA /* Sources */,
+				AF0C999AC99C48959BB8B25B36D48BAB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ABPortfolioTests";
+			productName = "Pods-ABPortfolioTests";
+			productReference = D3A0ACB6E03CE7E682E923761579D27C /* libPods-ABPortfolioTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EB3EB5B43CE1F95285A3DF144854D362 /* Pods-ABPortfolioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486144B4C67E7981C151404E7D8ACDF4 /* Build configuration list for PBXNativeTarget "Pods-ABPortfolioUITests" */;
+			buildPhases = (
+				55D3BE1679CF890A020432431D2817CA /* Sources */,
+				9EAF6A7EC351AEEDE0AC845583964D98 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ABPortfolioUITests";
+			productName = "Pods-ABPortfolioUITests";
+			productReference = E7194880C9BBFE9D3EA5843AF8552726 /* libPods-ABPortfolioUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EF8F4D193A5C4FB9F9039F94751FC71A /* ABVolumeControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65415D0F95901DE69DCEF3CC5243A2E0 /* Build configuration list for PBXNativeTarget "ABVolumeControl" */;
+			buildPhases = (
+				DED19F361A715463F10E0C1D465B744D /* Sources */,
+				2724FD07DD8C50A65D2AD3D23E9389F5 /* Frameworks */,
+				9BAE9985DAC68E3E04E229AC9F9563FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABVolumeControl;
+			productName = ABVolumeControl;
+			productReference = 9A552D99A76BF05CD935BF7958196F04 /* libABVolumeControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 307C19758B9ADF0A68E4E5C81D9BF3A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6E9C7AF14880382E857AFA87534D42 /* ABKeyboardAccessory */,
+				393E2C5FE01592E75DC481C869C58956 /* ABMediaView */,
+				2760FEE564874ED9653F59FE6C4FDDFD /* ABUtils */,
+				EF8F4D193A5C4FB9F9039F94751FC71A /* ABVolumeControl */,
+				51FB1DA4626B00E00A271EBA4400F772 /* Pods-ABPortfolio */,
+				7AE1F6F71356621E2EC6DB5EBC0ACD70 /* Pods-ABPortfolioTests */,
+				EB3EB5B43CE1F95285A3DF144854D362 /* Pods-ABPortfolioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009584578BA342D64372AE28E306FE59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A1ABD099721FF9C32800B21B0C9F7E /* ABUtils-dummy.m in Sources */,
+				34F980DA7E1FAD905578442FB2359AED /* ABUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514D0B63EDA569F0FF1943688796ADF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F11C997376E71F1AA730516BA55B6D /* Pods-ABPortfolio-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D3BE1679CF890A020432431D2817CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A2660AD195483DAEC583C86A81DAD2 /* Pods-ABPortfolioUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6359AA12BA36C35DF7E6B56D4A6743A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25870AD311ADC983C787570775FCFA8 /* ABCacheManager.m in Sources */,
+				89B7A1DF81C6739B8FF9E10A34DFCC4C /* ABCommons.m in Sources */,
+				625ADB6DD413E8C09BE2D340D5E0459F /* ABLabel.m in Sources */,
+				6B80961CBF22C6B5A1704037D00136B7 /* ABMediaView-dummy.m in Sources */,
+				054D24770C69B978A3236EC557C73D49 /* ABMediaView.m in Sources */,
+				B82D28C552FA3848D0F220644C5A0FF8 /* ABPlayer.m in Sources */,
+				E31DC453C9A89590102516055D2D7501 /* ABTrackView.m in Sources */,
+				90F8375D4FDFE4A64A72D40272B2397A /* ABVolumeManager.m in Sources */,
+				4FEA45D363A095E2037E66A631B7ED8A /* UIImage+animatedGIF.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACC835A11A2CC0A9602BC6B8DC735BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5FFDC470CAEF8422C8CD406C901316 /* Pods-ABPortfolioTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED19F361A715463F10E0C1D465B744D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406AD42B9B5BC8F0228097782E37CFEA /* ABVolumeControl-dummy.m in Sources */,
+				57E42A87CF1D74E3D38EB0B290A15A9D /* ABVolumeControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCCFC44A8DD8F45581454E54AE3DDD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA470AD7ECFB78338B8C2D2A4C237F4E /* ABKeyboardAccessory-dummy.m in Sources */,
+				F48DF018D0FDB281F0DDEC9FB6D765BB /* ABKeyboardAccessory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AD634B1473E27C9A3596CFC055A69A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ABMediaView;
+			target = 393E2C5FE01592E75DC481C869C58956 /* ABMediaView */;
+			targetProxy = F7ADEB7B7208F3FC1A1E09CB51BD00DF /* PBXContainerItemProxy */;
+		};
+		2D2D32800192FA994B5772D98D0A239A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ABUtils;
+			target = 2760FEE564874ED9653F59FE6C4FDDFD /* ABUtils */;
+			targetProxy = 8CD304BC09F6FBE79BB05D6A4B352064 /* PBXContainerItemProxy */;
+		};
+		323FE6F2A9CFC3E74ED6CD2F28FBE0AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ABVolumeControl;
+			target = EF8F4D193A5C4FB9F9039F94751FC71A /* ABVolumeControl */;
+			targetProxy = D55A0477C50E3708C00A9173F534FE31 /* PBXContainerItemProxy */;
+		};
+		A0042C7878D9BA867620B3668132CA60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ABKeyboardAccessory;
+			target = 1D6E9C7AF14880382E857AFA87534D42 /* ABKeyboardAccessory */;
+			targetProxy = 2C1B4803155C26E08CF1F44F265E7CA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0851A4D4EA00EF06FEF08A34837252E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBF24A08228082419EDE0C7593D98E8 /* ABUtils.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABUtils/ABUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		22122F3539ED8B3A46A6F64A7065DF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1104CC205E0A0E8CF853E1EF44A0AF /* ABVolumeControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABVolumeControl/ABVolumeControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		24CAD9EE7E90CE977A1AC563559309EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DC887A30B76FF82CB2DC70F95A0019 /* Pods-ABPortfolioUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		58CE8770D069106A6D4B00A4195B377C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4D531DFE043F9A24743BA21A37B6FC /* ABKeyboardAccessory.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABKeyboardAccessory/ABKeyboardAccessory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74D65D2E9DBC231948F0DC53DEA61977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBF24A08228082419EDE0C7593D98E8 /* ABUtils.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABUtils/ABUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		78ECD59CF2417D5D4064CDCC3A042694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7727C3AF8EA6D494D6166588F932DFEE /* Pods-ABPortfolioUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7C4826BCF0D563E3FB2B2464EF45F7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE776BD48B60A5556EC6AD82F2A3B7A4 /* Pods-ABPortfolio.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7DF3AAB6AAB3C3B4F70A833560A2DF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1104CC205E0A0E8CF853E1EF44A0AF /* ABVolumeControl.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABVolumeControl/ABVolumeControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89260F31CDFFFE0E96360CA573F7F5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C03F48F84E7D865251E598324F3ED92 /* Pods-ABPortfolio.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B717B5D4124658457351995C7AB06300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0029C219ED834B88703D9C4361BC7ED1 /* ABMediaView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABMediaView/ABMediaView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C98D6AAEAB015DD0708CB5F20D509B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0029C219ED834B88703D9C4361BC7ED1 /* ABMediaView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABMediaView/ABMediaView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D46379547CFA9300A2D414D082A665F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4D531DFE043F9A24743BA21A37B6FC /* ABKeyboardAccessory.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABKeyboardAccessory/ABKeyboardAccessory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E10C8822D4850DB7528BAED80DF1DCD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA5AD3E8DC948F6019BA7719580FC46 /* Pods-ABPortfolioTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F637FA16EDE6C45C64553FE139F2CEB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8662239861CD4301F71AAF578A170F9 /* Pods-ABPortfolioTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13E6B7D26E97775F865EE2FF892EBE09 /* Build configuration list for PBXNativeTarget "ABMediaView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98D6AAEAB015DD0708CB5F20D509B84 /* Debug */,
+				B717B5D4124658457351995C7AB06300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486144B4C67E7981C151404E7D8ACDF4 /* Build configuration list for PBXNativeTarget "Pods-ABPortfolioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78ECD59CF2417D5D4064CDCC3A042694 /* Debug */,
+				24CAD9EE7E90CE977A1AC563559309EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65415D0F95901DE69DCEF3CC5243A2E0 /* Build configuration list for PBXNativeTarget "ABVolumeControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22122F3539ED8B3A46A6F64A7065DF54 /* Debug */,
+				7DF3AAB6AAB3C3B4F70A833560A2DF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9279B9B338BD8255126C737BDA3B19BA /* Build configuration list for PBXNativeTarget "Pods-ABPortfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C4826BCF0D563E3FB2B2464EF45F7ED /* Debug */,
+				89260F31CDFFFE0E96360CA573F7F5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F9BF9728DEF40398BFF8649628A7C0 /* Build configuration list for PBXNativeTarget "ABUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D65D2E9DBC231948F0DC53DEA61977 /* Debug */,
+				0851A4D4EA00EF06FEF08A34837252E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B737EE6B58153C8FCC4278AB622050EA /* Build configuration list for PBXNativeTarget "ABKeyboardAccessory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58CE8770D069106A6D4B00A4195B377C /* Debug */,
+				D46379547CFA9300A2D414D082A665F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3502A90212CACE1D17F841FEE0189AF /* Build configuration list for PBXNativeTarget "Pods-ABPortfolioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F637FA16EDE6C45C64553FE139F2CEB3 /* Debug */,
+				E10C8822D4850DB7528BAED80DF1DCD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
